@@ -214,3 +214,47 @@ header nav a {
 }
 
 /* About Page Setting */
+
+.about-page .top-content .text-container {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.about-page .middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-page .middle-content .text-container {
+    width: 47%;    
+    margin: 20px 1.5%;
+    color: black;    
+    align-items: center;
+    justify-content: center;
+}
+
+.about-page .middle-content .text-container h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.about-page .middle-content {
+    margin-bottom: 0px;
+    border-bottom: 0px dashed black;
+}
+
+.about-page .middle-content .text-container {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-page .middle-content .text-container button {
+    height: 39px;
+    margin: 15px 0px;
+    width: 126px;
+    background-color: white;
+    border-radius: 7.2px;
+    border: 1.5px solid black;
+}
